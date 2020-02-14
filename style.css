@@ -1,0 +1,227 @@
+body {
+  max-height: 1224px;
+  background: #4e4776;
+  margin: auto;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.table {
+  position: absolute;
+  width: 100%;
+  height: 77px;
+  background-color: #66492e;
+  border: 5px solid black;
+  border-radius: 30px;
+  bottom: 105px;
+  box-shadow: -10px -25px 0 0 #493404 inset;
+}
+.brillo-table {
+  width: 45px;
+  position: absolute;
+  left: 9px;
+  top: 10px;
+  height: 16px;
+  background-color: beige;
+  border-radius: 14px;
+  opacity: 0.2;
+}
+
+.table-legs {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px 0 40px;
+  z-index: -4;
+}
+
+.legs {
+  height: 100px;
+  width: 80px;
+  background-color: #66492e;
+  border: 5px solid black;
+  box-shadow: -20px 0 0 #493404 inset;
+}
+
+.bottle {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.glass {
+  display: flex;
+  background-color: lightskyblue;
+  opacity: 0.5;
+  border: 3px solid black;
+  border-radius: 14px;
+  box-shadow: -10px 0 0 aqua inset;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.br-btl {
+  width: 26px;
+  position: relative;
+  left: 9px;
+  top: 36px;
+  height: 19px;
+  background-color: beige;
+  border-radius: 14px;
+  opacity: 0.2;
+}
+.l1 {
+  width: 80px;
+  height: 8px;
+  background-color: #493404;
+  align-self: center;
+  border: 1px solid black;
+}
+
+.b1 {
+  width: 110px;
+  top: 520px;
+  left: 30px;
+}
+.g1 {
+  width: 110px;
+  height: 120px;
+}
+.m-1 {
+  width: 70px;
+  height: 80px;
+  margin-bottom: 4px;
+  position: relative;
+  left: -2px;
+  animation-name: mons1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes mons1 {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.b2 {
+  width: 174px;
+  top: 367px;
+  left: 1017px;
+}
+.l2 {
+  width: 107px;
+  height: 8px;
+  background-color: pink;
+  align-self: center;
+  border: 1px solid black;
+}
+
+.g2 {
+  width: 168px;
+  height: 120px;
+  align-items: center;
+}
+.m-2 {
+  width: 51px;
+  height: 46px;
+  position: relative;
+  left: -2px;
+  animation-name: mons2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes mons2 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(2);
+  }
+}
+
+.b3 {
+  width: 110px;
+  top: 10px;
+  left: 30px;
+}
+.l3 {
+  width: 70px;
+  height: 8px;
+  background-color: violet;
+  align-self: center;
+  border: 1px solid black;
+}
+
+.g3 {
+  width: 100px;
+  height: 100px;
+}
+
+.m-3 {
+  width: 56px;
+  height: 80px;
+  position: relative;
+  left: -2px;
+  animation-name: mons3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transition: step-start;
+}
+@keyframes mons3 {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(2);
+  }
+}
+
+.b4 {
+  position: absolute;
+  width: 149px;
+  top: 10px;
+  left: 200px;
+}
+.l4 {
+  width: 70px;
+  height: 8px;
+  background-color: green;
+  align-self: center;
+  border: 1px solid black;
+}
+
+.g4 {
+  width: 143px;
+  height: 100px;
+  position: absolute;
+}
+.monscontainer {
+  display: flex;
+  position: relative;
+  height: 106px;
+}
+
+.m-4 {
+  width: 76px;
+  height: 80px;
+  position: relative;
+  top: 18px;
+  animation-name: mons4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition: step-start;
+  animation-direction: alternate;
+}
+@keyframes mons4 {
+  from {
+    transform: translateX(10 px);
+  }
+  to {
+    transform: translateX(60px);
+  }
+}
